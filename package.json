@@ -1,8 +1,28 @@
 {
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "esto es un ejercicio del tiempo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hirnel/Weather-APP.git"
+  },
+  "author": "Cristian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hirnel/Weather-APP/issues"
+  },
+  "homepage": "https://github.com/Hirnel/Weather-APP#readme",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
     "nodemon": "^3.1.7",
-    "pug": "^3.0.3"
+    "request": "^2.88.2",
+    "yargs": "^17.7.2"
   }
 }
